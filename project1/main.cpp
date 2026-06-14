@@ -7,12 +7,6 @@
 #include <rbx/cache/cache.hpp>
 #include <render/render.hpp>
 
-/* ts is my base i built my own memory and cache system from scratch not copied from random paste dumps or anything like that its all structured the way i needed it to work for ts project even if its not perfect or industry clean
-i only used a couple external render classes (stackz stuff) bc im not wasting time reinventing imgui wrappers when i already understand the basics everything else is mine including how the memory flow and caching is handled
-the whole idea here is simple: keep memory access stable reduce unnecessary reads and cache what matters so it doesnt spam the system every frame its not some overengineered shitty framework just a practical setup that works for what i needed at the time
-ts project wasnt meant to be some full feature cheat or anything massive no aimbot no extra noise just basic structure memory handling and rendering pipeline testing
-ive been working on it for a few days mostly iterating and fixing mistakes as they show up its not perfect but its functional enough that i can build on top of it later if needed */
-
 #define BINARY_NAME "RobloxPlayerBeta.exe"
 
 int main()
